@@ -1,0 +1,38 @@
+body{
+	scroll:auto;
+}
+.onepage-content h4 {
+    text-indent: 2em;
+    letter-spacing: 1px;
+    line-height: 2em;
+    margin-top: 30px;
+}
+
+.fourpage-details img {
+    width: 95%;
+    height: 355px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px #BCBCBC;
+    padding: .7em;
+}
+
+.fourpage-details h4{
+	text-indent: 2em;
+    letter-spacing: 1px;
+    line-height: 2em;
+}
+
+.fourpage-details .pp{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.fourpage-head {
+    padding-top:0px;
+}
+
+.fourpage-row .row{
+	margin-bottom: 70px;
+}

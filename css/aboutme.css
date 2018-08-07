@@ -1,0 +1,38 @@
+.threepage-text{
+}
+
+.me{
+	text-align: center;
+}
+.me img{
+	width: 200px;
+	height: 200px;
+}
+
+.me h3{
+	padding-top: 30px;	
+}
+
+.onepage-content img {
+    padding:0;
+}
+
+
+@keyframes snow{
+	0%{
+		background-position: 0 0,0 0;
+	}
+	100%{
+		background-position: 500px 500px,1000px,500px;
+	}
+}
+
+.threepage-text{
+	background-image: url(../img/circle1.png),url(../img/circle2.png);
+	animation:10s snow linear infinite;
+	-webkit-animation:10s snow linear infinite;
+	-moz-animation:10s snow linear infinite; 
+	-o-animation:10s snow linear infinite;
+	-ms-animation:10s snow linear infinite;
+	pointer-events: none;
+}
